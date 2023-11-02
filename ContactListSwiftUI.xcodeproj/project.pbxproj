@@ -8,21 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		EDF513492AF01810001663EE /* ContactListSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF513482AF01810001663EE /* ContactListSwiftUIApp.swift */; };
-		EDF5134B2AF01810001663EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5134A2AF01810001663EE /* ContentView.swift */; };
 		EDF5134D2AF01812001663EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF5134C2AF01812001663EE /* Assets.xcassets */; };
 		EDF513502AF01812001663EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF5134F2AF01812001663EE /* Preview Assets.xcassets */; };
 		EDF513572AF018FE001663EE /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF513562AF018FE001663EE /* Person.swift */; };
 		EDF513592AF01DBC001663EE /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF513582AF01DBC001663EE /* DataStore.swift */; };
+		EDF5135D2AF0205E001663EE /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5135C2AF0205E001663EE /* ContactsView.swift */; };
+		EDF5135F2AF02067001663EE /* NubmersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF5135E2AF02067001663EE /* NubmersView.swift */; };
+		EDF513612AF02076001663EE /* ContactDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF513602AF02076001663EE /* ContactDetailsView.swift */; };
+		EDF513632AF020C4001663EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF513622AF020C4001663EE /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EDF513452AF01810001663EE /* ContactListSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactListSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF513482AF01810001663EE /* ContactListSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListSwiftUIApp.swift; sourceTree = "<group>"; };
-		EDF5134A2AF01810001663EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EDF5134C2AF01812001663EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF5134F2AF01812001663EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EDF513562AF018FE001663EE /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		EDF513582AF01DBC001663EE /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		EDF5135C2AF0205E001663EE /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		EDF5135E2AF02067001663EE /* NubmersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NubmersView.swift; sourceTree = "<group>"; };
+		EDF513602AF02076001663EE /* ContactDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsView.swift; sourceTree = "<group>"; };
+		EDF513622AF020C4001663EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				EDF513482AF01810001663EE /* ContactListSwiftUIApp.swift */,
-				EDF5134A2AF01810001663EE /* ContentView.swift */,
+				EDF5135C2AF0205E001663EE /* ContactsView.swift */,
+				EDF513622AF020C4001663EE /* ContentView.swift */,
+				EDF5135E2AF02067001663EE /* NubmersView.swift */,
+				EDF513602AF02076001663EE /* ContactDetailsView.swift */,
 				EDF5134C2AF01812001663EE /* Assets.xcassets */,
 				EDF5134E2AF01812001663EE /* Preview Content */,
 				EDF5135A2AF01F22001663EE /* Model */,
@@ -161,8 +170,11 @@
 			files = (
 				EDF513572AF018FE001663EE /* Person.swift in Sources */,
 				EDF513592AF01DBC001663EE /* DataStore.swift in Sources */,
-				EDF5134B2AF01810001663EE /* ContentView.swift in Sources */,
+				EDF513632AF020C4001663EE /* ContentView.swift in Sources */,
+				EDF513612AF02076001663EE /* ContactDetailsView.swift in Sources */,
+				EDF5135D2AF0205E001663EE /* ContactsView.swift in Sources */,
 				EDF513492AF01810001663EE /* ContactListSwiftUIApp.swift in Sources */,
+				EDF5135F2AF02067001663EE /* NubmersView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct Person {
+struct Person: Hashable {
     let name: String
     let surname: String
     let email: String
     let phone: String
     
-    var fullNmae: String {
+    var fullName: String {
         "\(name) \(surname)"
     }
     
