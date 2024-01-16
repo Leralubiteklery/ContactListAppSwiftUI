@@ -18,7 +18,6 @@ struct NubmersView: View {
                     Label(contact.phone, systemImage: "phone")
                     Label(contact.email, systemImage: "tray")
                 }
-                .textCase(.none)
             }
             .navigationTitle("Contact List")
             .listStyle(.plain)

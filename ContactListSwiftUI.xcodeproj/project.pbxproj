@@ -42,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED5222302B56CC2700F3A573 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDF5135C2AF0205E001663EE /* ContactsView.swift */,
+				EDF513622AF020C4001663EE /* ContentView.swift */,
+				EDF5135E2AF02067001663EE /* NubmersView.swift */,
+				EDF513602AF02076001663EE /* ContactDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		EDF5133C2AF01810001663EE = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				EDF513482AF01810001663EE /* ContactListSwiftUIApp.swift */,
-				EDF5135C2AF0205E001663EE /* ContactsView.swift */,
-				EDF513622AF020C4001663EE /* ContentView.swift */,
-				EDF5135E2AF02067001663EE /* NubmersView.swift */,
-				EDF513602AF02076001663EE /* ContactDetailsView.swift */,
+				ED5222302B56CC2700F3A573 /* Views */,
 				EDF5134C2AF01812001663EE /* Assets.xcassets */,
 				EDF5134E2AF01812001663EE /* Preview Content */,
 				EDF5135A2AF01F22001663EE /* Model */,
