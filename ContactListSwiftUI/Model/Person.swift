@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Person: Hashable {
+struct Person: Identifiable {
+    let id: Int
     let name: String
     let surname: String
     let email: String
@@ -24,16 +25,10 @@ struct Person: Hashable {
         let surnames = DataStore.shared.surnames.shuffled()
         let phones = DataStore.shared.phones.shuffled()
         let emails = DataStore.shared.emails.shuffled()
-        
-        let iterationCount = min(
-            names.count,
-            surnames.count,
-            phones.count,
-            emails.count
-        )
-        
-        for index in 0..<iterationCount {
+                
+        for index in 0..<names.count {
             let person = Person(
+                id: index + 1,
                 name: names[index],
                 surname: surnames[index],
                 email: emails[index],
